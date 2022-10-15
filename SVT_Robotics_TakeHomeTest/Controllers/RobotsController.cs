@@ -14,9 +14,9 @@ namespace SVT_Robotics_TakeHomeTest.Controllers
             _clientFactory = clientFactory;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("/api/robots/closest")]
-        public async Task<ActionResult<NearestRobotResponse>> GetClosestRobot([FromQuery] NearestRobotRequest request)
+        public async Task<ActionResult<NearestRobotResponse>> GetClosestRobot([FromBody] NearestRobotRequest request)
         {
             var externalEndpoint = "https://60c8ed887dafc90017ffbd56.mockapi.io/robots";
             var client = _clientFactory.CreateClient();
