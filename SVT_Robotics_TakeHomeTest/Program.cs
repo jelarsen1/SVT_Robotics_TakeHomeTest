@@ -1,3 +1,5 @@
+using SVT_Robotics_TakeHomeTest.Business;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient();
+builder.Services.AddSingleton<IRobotsBusiness, RobotsBusiness>();
 
 var app = builder.Build();
 
