@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVT_Robotics_TakeHomeTest", "SVT_Robotics_TakeHomeTest\SVT_Robotics_TakeHomeTest.csproj", "{4E8DCAB4-0AC3-434E-A87F-ACA93B969D15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E8DCAB4-0AC3-434E-A87F-ACA93B969D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8DCAB4-0AC3-434E-A87F-ACA93B969D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8DCAB4-0AC3-434E-A87F-ACA93B969D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8DCAB4-0AC3-434E-A87F-ACA93B969D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC422B23-3246-40E2-9F5D-2AC42B2E6B3D}
+	EndGlobalSection
+EndGlobal
